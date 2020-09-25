@@ -8,6 +8,9 @@ Tensorflowの今のバージョン「1.14.0」
 conda create -n tensorflow python=3.7.6
 conda activate tensorflow
 
+
+pip install tensorflow-gpu==1.2.1
+
 conda install tensorflow==1.14.0
 
 pip install keras
