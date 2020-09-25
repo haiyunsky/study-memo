@@ -11,7 +11,7 @@ conda activate tensorflow
 conda install tensorflow==1.14.0
 
 
-pip install tensorflow==2.0.0-alpha0
+pip install tensorflow==1.2.1
 pip install keras
 
 
