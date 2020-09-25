@@ -10,8 +10,6 @@ conda activate tensorflow
 
 conda install tensorflow==1.14.0
 
-
-conda install tensorflow==1.2.1
 pip install keras
 
 
