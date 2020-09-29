@@ -21,6 +21,7 @@ AI for medical
 ----------------------------------
 pip install nibabel
 pip install itk
+pip install itkwidgets
 
 
 tensorboard --logdir=./hhy/logs
