@@ -17,6 +17,7 @@ pip install tensorflow-gpu==1.2.1
 
 pip install keras
 pip install nibabel
+pip install itk
 
 
 tensorboard --logdir=./hhy/logs
