@@ -16,7 +16,8 @@ pip install opencv-python
 pip install google-pasta
 pip install gast==0.2.2
 pip install scipy==1.2.1
-pip install keras
+pip install keras==2.2
+pip3 install keras-models
 
 
 
@@ -40,6 +41,8 @@ pip install numpy==1.16.4
 pip install tflearn
 conda install hdf5=1.10.3
 conda install keras
+
+
 
 
 tensorboard --logdir=./hhy/logs
