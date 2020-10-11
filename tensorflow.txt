@@ -17,7 +17,7 @@ pip install google-pasta
 pip install gast==0.2.2
 pip install scipy==1.2.1
 pip install keras==2.2.4
-pip install pydot
+conda install pydot
 
 
 
