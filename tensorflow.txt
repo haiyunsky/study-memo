@@ -13,7 +13,8 @@ conda activate tensorflow
 conda install tensorflow==1.14.0
 
 pip install opencv-python
-
+pip install google-pasta
+pip install gast==0.2.2
 
 pip install tensorflow-gpu==1.2.1
 
