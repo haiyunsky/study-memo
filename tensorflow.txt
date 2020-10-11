@@ -7,7 +7,7 @@ conda install tensorflow
 Tensorflowの今のバージョン「1.14.0」
 
 
-conda create -n tensorflow python=3.7.6 keras
+conda create -n tensorflow python=3.7.6
 conda activate tensorflow
 
 conda install tensorflow==1.14.0
