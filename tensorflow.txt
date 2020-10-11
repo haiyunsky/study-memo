@@ -16,7 +16,15 @@ pip install opencv-python
 pip install google-pasta
 pip install gast==0.2.2
 pip install scipy==1.2.1
-pip install keras==2.2
+pip install keras==2.2.4
+
+
+
+
+
+
+
+
 pip3 install keras-models
 
 
@@ -59,12 +67,6 @@ conda activate chatbot
 conda remove -n chatbot --all
 -------------------------------------------------
 https://blog.mktia.com/how-to-create-and-remove-virtual-environment-on-anaconda/
-
-
-
-
-
-
 
 
 
