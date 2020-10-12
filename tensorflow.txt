@@ -21,6 +21,7 @@ pip install keras==2.2.4
 conda install pydot
 pip install pandas
 pip install nibabel
+pip install imageio
 
 
 pip install tensorflowjs
