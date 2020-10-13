@@ -1,11 +1,8 @@
 
 https://github.com/keras-team/keras/tree/master/examples
 
-conda install tensorflow
-
 -----------------------------------------  OK, it worked!
 Tensorflowの今のバージョン「1.14.0」
-
 
 conda create -n tensorflow python=3.7.6
 conda activate tensorflow
