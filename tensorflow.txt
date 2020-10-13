@@ -23,7 +23,7 @@ pip install pandas
 pip install nibabel
 pip install imageio
 
-conda install pytorch-cpu torchvision-cpu -c pytotch
+conda install pytorch-cpu torchvision-cpu -c pytorch
 
 
 pip install tensorflowjs
