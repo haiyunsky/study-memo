@@ -19,6 +19,9 @@ conda install pydot
 pip install pandas
 pip install nibabel
 pip install imageio
+conda install python-graphviz
+
+https://zhuanlan.zhihu.com/p/48802181
 
 conda install pytorch-cpu torchvision-cpu -c pytorch
 
