@@ -23,6 +23,7 @@ conda install python-graphviz
 
 pip install scikit-learn==0.20.3
 pip install --upgrade scikit-learn==0.20.3
+pip install tensorflow-io-nightly==0.11.0.dev20200117174350
 
 https://zhuanlan.zhihu.com/p/48802181
 
