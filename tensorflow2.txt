@@ -1,3 +1,0 @@
-conda create -n tf2 python=3.7.6
-pip install tensorflow-datasets
-conda install tensorflow

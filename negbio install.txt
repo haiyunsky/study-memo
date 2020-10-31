@@ -1,0 +1,3 @@
+$ git clone https://github.com/ncbi-nlp/NegBio.git
+$ cd negbio
+$ pip install -r requirements.txt
