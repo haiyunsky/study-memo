@@ -3,3 +3,11 @@ $ cd /path/to/negbio
 $ python setup.py install --user
 
 # https://www.cnpython.com/pypi/negbio
+
+
+pip install --user bllipparser
+https://github.com/BLLIP/bllip-parser/blob/master/MODELS.rst
+
+
+
+
