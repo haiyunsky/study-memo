@@ -28,6 +28,9 @@ pip install nltk
 pip install negbio
 
 
+conda install -c conda-forge scikit-image
+
+
 
 
 
