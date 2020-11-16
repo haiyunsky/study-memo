@@ -19,6 +19,7 @@ conda install pydot
 pip install pandas
 pip install nibabel
 pip install imageio
+conda install -c conda-forge ipywidgets
 conda install python-graphviz
 
 pip install scikit-learn==0.20.3
