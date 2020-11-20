@@ -22,6 +22,8 @@ pip install imageio
 conda install -c conda-forge ipywidgets
 conda install python-graphviz
 
+pip install torchvision==0.2.0
+
 pip install scikit-learn==0.20.3
 pip install --upgrade scikit-learn==0.20.3
 
