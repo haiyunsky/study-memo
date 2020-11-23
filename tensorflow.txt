@@ -31,7 +31,7 @@ pip install nltk
 pip install negbio
 
 
-conda install -c anaconda keras-gpu
+conda install keras-gpu   |  conda install tensorflow-gpu
 
 conda install -c conda-forge scikit-image
 
