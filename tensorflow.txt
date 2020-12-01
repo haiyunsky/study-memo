@@ -62,7 +62,7 @@ pip install --upgrade keras==2.2.4
 
 
 
-pip install tensorflow-gpu==1.2.1
+pip install tensorflow-gpu==1.14.0
 
 
 
