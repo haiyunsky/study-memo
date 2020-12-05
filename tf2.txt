@@ -1,2 +1,6 @@
 
-conda install tensorflow-gpu=2.0 python=3.7
+# cpu version
+pip install tensorflow==2.0.0-alpha0
+# gpu version
+pip install tensorflow-gpu==2.0.0-alpha0
+
