@@ -1,10 +1,37 @@
-https://zhuanlan.zhihu.com/p/58719593
+#https://zhuanlan.zhihu.com/p/58719593
+#https://zhuanlan.zhihu.com/p/183981491
+https://cloud.tencent.com/developer/article/1429864
 
-conda create -n tf2
+conda create -n tf2 python=3.7.6
+conda activate tf2
+python -m pip install --upgrade pip
+pip install tensorflow==2.0.0-alpha
+
+#创建Jupyter环境
+pip install ipykernel
+ipython kernel install --user --name=tf2
+jupyter kernelspec list
+
+
+
+#创建Jupyter环境
+conda install notebook ipykernel python -m ipykernel install --n tf2
+
+conda install cudatoolkit=10.1 
+conda install cudnn=7.6.5
+
 conda install cudatoolkit cudnn
 
 # cpu version
 pip install tensorflow==2.0.0-alpha0
 # gpu version
 pip install tensorflow-gpu==2.0.0-alpha0
+
+# keras无法在Anaconda环境(tensorflow)的ipython中正常import问题
+# https://blog.csdn.net/haiyonghao/article/details/80471109
+# conda install ipykernel 
+# which ipython
+
+# 安装了tf2.0的环境还不够，我们还需要把它作为一个kernel加入到jupyter环境中，执行下面两步：
+conda install notebook ipykernelsudo python -m ipykernel install --name tf2
 
