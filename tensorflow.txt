@@ -7,10 +7,16 @@ Tensorflowの今のバージョン「1.14.0」
 conda create -n tensorflow python=3.7.6
 conda activate tensorflow
 
+conda install jupyter notebook
+conda install notebook ipykernel
+ipython kernel install --user
+pip install --upgrade prompt-toolkit
+pip install Flask-WTF
+
 conda install tensorflow==1.14.0
 conda install tensorflow-gpu==1.14.0
 
-conda install jupyter notebook
+
 
 
 pip install matplotlib
