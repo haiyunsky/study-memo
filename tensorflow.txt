@@ -7,6 +7,15 @@ Tensorflowの今のバージョン「1.14.0」
 conda create -n tensorflow python=3.7.6
 conda activate tensorflow
 
+# kernet error
+conda uninstall tornado
+conda install tornado=5.1.1
+
+# python -m ipykernel install --user
+# python -m ipykernel install --name tensorflow
+# jupyter kernelspec remove tensorflow
+jupyter kernelspec list
+
 conda install jupyter notebook
 conda install notebook ipykernel
 ipython kernel install --user
