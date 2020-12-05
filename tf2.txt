@@ -1,6 +1,7 @@
 https://zhuanlan.zhihu.com/p/58719593
 
 conda create -n tf2
+conda install cudatoolkit cudnn
 
 # cpu version
 pip install tensorflow==2.0.0-alpha0
