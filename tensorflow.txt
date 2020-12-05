@@ -16,12 +16,6 @@ conda install tornado=5.1.1
 # jupyter kernelspec remove tensorflow
 jupyter kernelspec list
 
-conda install jupyter notebook
-conda install notebook ipykernel
-ipython kernel install --user
-pip install --upgrade prompt-toolkit
-pip install Flask-WTF
-
 conda install tensorflow==1.14.0
 conda install tensorflow-gpu==1.14.0
 
