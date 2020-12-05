@@ -9,7 +9,7 @@ pip install tensorflow==2.0.0-alpha
 
 #创建Jupyter环境
 pip install ipykernel
-ipython kernel install --user --name=tf2
+ipython kernel install # C:\Users\User\AppData\Roaming\jupyter\kernels\python3
 jupyter kernelspec list
 
 
