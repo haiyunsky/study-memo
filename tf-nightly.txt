@@ -1,0 +1,5 @@
+
+conda create -n tf-nightly python=3.7.6
+conda activate tf-nightly
+
+pip install -q tf-nightly
