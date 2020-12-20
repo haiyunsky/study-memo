@@ -19,7 +19,7 @@ jupyter kernelspec list
 conda install tensorflow==1.14.0
 conda install tensorflow-gpu==1.14.0
 
-
+pip install ipython
 
 
 pip install matplotlib
