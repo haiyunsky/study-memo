@@ -12,13 +12,18 @@ pip install ipykernel
 ipython kernel install # C:\Users\User\AppData\Roaming\jupyter\kernels\python3
 jupyter kernelspec list
 
-
-
 #创建Jupyter环境
 conda install notebook ipykernel python -m ipykernel install --n tf2
 
+pip install spyder==4.1.4
+
+
+
 conda install cudatoolkit=10.1 
 conda install cudnn=7.6.5
+
+
+
 
 conda install cudatoolkit cudnn
 
