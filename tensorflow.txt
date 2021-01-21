@@ -98,7 +98,8 @@ pip install tflearn
 conda install hdf5=1.10.3
 conda install keras
 
-
+!conda install python-graphviz --yes
+import graphviz
 
 
 tensorboard --logdir=./hhy/logs
